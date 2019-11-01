@@ -1,0 +1,20 @@
+[
+    {
+    "nama":"abdullah",
+    "kelas":"X1 IPA",
+    "jenis kelamin":"laki-laki",
+    "umur":16
+    },
+    {
+        "nama":"ahmad",
+        "kelas":"X1 IPA",
+        "jenis kelamin":"laki-laki",
+        "umur":16
+    },
+    {
+        "nama":"bagas",
+        "kelas":"X1 IPA",
+        "jenis kelamin":"laki-laki",
+        "umur":16
+    }  
+]

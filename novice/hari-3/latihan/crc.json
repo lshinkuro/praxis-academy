@@ -1,0 +1,64 @@
+[
+  {
+    "name": "sales",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "knowledge",
+      "behaviour",
+      "operation",
+      "promotion"
+    ],
+    "collaborators": [
+      "partner",
+      "clients"
+    ]
+  },
+  {
+    "name": "transaction",
+    "superclasses": "sales",
+    "subclasses": "order",
+    "type": 1,
+    "responsibilities": [
+      "money auditor",
+      "auditing"
+    ],
+    "collaborators": [
+      "card reader",
+      "clients",
+      ""
+    ]
+  },
+  {
+    "name": "order",
+    "superclasses": "sales",
+    "subclasses": "delivery",
+    "type": 1,
+    "responsibilities": [
+      "price",
+      "stock",
+      "valid payment"
+    ],
+    "collaborators": [
+      "customers",
+      "order online"
+    ]
+  },
+  {
+    "name": "delivery",
+    "superclasses": "sales",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "item identity",
+      "check receiver",
+      "oreder no",
+      "total Qty"
+    ],
+    "collaborators": [
+      "partner",
+      "clients"
+    ]
+  }
+]
