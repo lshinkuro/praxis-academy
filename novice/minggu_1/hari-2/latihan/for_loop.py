@@ -7,11 +7,11 @@ print(squares)
 
 x=0
 squares = [x**2 for x in range(10)] #hampir sama sesuatu yang ada di atas
-print (squares)
+print ("e2",squares)
 
 combs = []
 for x in [1,2,3]:
-    for y in [3,1,4]:
+    for y in [3,1,4,6,7]:
         if x != y:
             combs.append((x, y)) #untuk setiap x  dirange 1,2,3 dan untuk setiap y di 3,1,4 apabila x tidak sama dengan y maka di append jadi x,y
 
@@ -34,10 +34,10 @@ freshfruit =[weapon.strip() for weapon in freshfruit]
 print(freshfruit)
 # create a list of 2-tuples like (number, square)
 x=[2,6,7,5,4,3]
-vec=[(x, x**2) for x in x[2:5]]
-print(vec)
+vec=[(i, i**2) for i in x]
+print("9",vec)
 # the tuple must be parenthesized, otherwise an error is raised
-vec=[(x, x**2) for x in range(6)]
+vec=[(x, x**2,x*2) for x in range(6)]
 print(vec)
 
 
