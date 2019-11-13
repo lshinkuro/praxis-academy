@@ -1,20 +1,20 @@
-fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']
-fruits.count('apple')
+buah = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']
+buah.count('apple')
 
-fruits.count('tangerine')  #Return the number of times x appears in the list.
+buah.count('tangerine')  #Return the number of times x appears in the list.
 
-fruits.index('banana')
+print(buah.index('banana'))
 
-fruits.index('banana', 4)  # Find next banana starting a position 4
+buah.index('banana', 4)  # Find next banana starting a position 4
 
-fruits.reverse()
-print(fruits)
+buah.reverse()
+print(buah)
 
-fruits.append('grape') #Add an item to the end of the list. Equivalent to a[len(a):] = [x].
-print(fruits)
+buah.append('grape') #Add an item to the end of the list. Equivalent to a[len(a):] = [x].
+print(buah)
 
-fruits.sort() #Sort the items of the list in place (the arguments can be used for sort customization, see sorted() for their explanation).
-print(fruits)
+buah.sort() #Sort the items of the list in place (the arguments can be used for sort customization, see sorted() for their explanation).
+print(buah)
 
-fruits.pop()
-print(fruits)
+buah.pop()
+print(buah)

@@ -1,14 +1,14 @@
-class Animal :
- def __init__(self,name,category,limbs,bulu):
-   self.name=name
-   self.limbs=limbs
-   self.category=category
-   self.bulu=bulu
+# class Animal :
+#  def __init__(self,name,category,limbs,bulu):
+#    self.name=name
+#    self.limbs=limbs
+#    self.category=category
+#    self.bulu=bulu
 
 
-animal= Animal("dog","hewan",4,"rambut")
-print("A",animal.name,"is a",animal.category,".")
-print("it has",animal.limbs,"limbs","juga punya",animal.bulu)
+# animal= Animal("dog","hewan",4,"rambut")
+# print("A",animal.name,"is a",animal.category,".")
+# print("it has",animal.limbs,"limbs","juga punya",animal.bulu)
 
 # combs = []
 # for x in [1,2,3]:
@@ -18,16 +18,16 @@ print("it has",animal.limbs,"limbs","juga punya",animal.bulu)
 
 # print(combs)
 
-# matrix = [
-#     [1, 2, 3, 4],
-#     [5, 6, 7, 8],
-#     [9, 10, 11, 12,7],
-# ]
-# transposed = []
-# for i in range(3):
-#     transposed.append([row[i] for row in matrix])
+matrix = [
+    [1, 2, 3, 4],
+    [5, 6, 7, 8],
+    [9, 10, 11, 12,7],
+]
+transposed = []
+for i in range(2):
+    transposed.append([row[i] for row in matrix])
 
-# print(transposed)
+print(transposed)
 
 # dragonball_super_character = ["Son Goku", "Vegeta", "Beerus", "Trunks", "Whiz", "Champa"]
 # for character in dragonball_super_character:
@@ -64,12 +64,12 @@ print("it has",animal.limbs,"limbs","juga punya",animal.bulu)
 # else:
 #     print("num bukan bilangan prima")
 
-# n =int(input("masukan row yang lu pengen"))
-# i,j=0,0
-# for i in range(0,n):
-#     print()
-#     for j in range(0,i+1):
-#         print("*",end="")
+n =int(input("masukan row yang lu pengen"))
+i,j=0,0
+for i in range(0,n):
+    print(i)
+    for j in range(0,i+1):
+        print("*",end="")
 
 # batas =5
 # i,j=0,0

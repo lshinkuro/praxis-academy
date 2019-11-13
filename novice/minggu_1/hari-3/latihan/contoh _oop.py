@@ -28,7 +28,7 @@ p.get_vendor_message()
 p1 = Product("Indomilek")
 p1.set_price(5000)
 
-print ("%s dengan ukuran %s %s harganya Rp. %d" % (p.name, p.size, p.unit, p.price))
+print ("%s dengan ukuran %s %s harganya Rp. %d" % (p1.name, p1.size, p1.unit, p1.price))
 
 print (p == p)
 print (p1 == p1)

@@ -15,3 +15,5 @@ sorted(tel)
 'guido' in tel
 
 'jack' not in tel
+
+print(tel)
